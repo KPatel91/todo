@@ -1,0 +1,47 @@
+﻿body
+{
+    text-align:center;
+    background-color:pink;
+    background:url('background.jpg');
+}
+#wrapper{
+    width:100%;
+}
+#container{
+    min-width:700px;
+    width:50%;
+    margin:auto;
+    background:url('note.jpg');
+    font-family: 'Josefin Slab', serif;
+    font-size:2em;
+}
+.header{
+    padding-top:20px;
+    font-weight:bold;
+    font-size:2em;
+    padding-bottom:20px;
+    margin-top:10px;
+}
+.mainSection{
+}
+.seperator{
+    height:21px;
+    margin-bottom;
+}
+.information{
+
+}
+.list {
+}
+#userInput{}
+#submit{}
+#userList{}
+
+.footer{
+    font-size:0.7em;
+}
+#footerText{}
+
+*{
+
+}
