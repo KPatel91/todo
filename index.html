@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <title>Don't forget the Milk!</title>
-    <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css" />
     <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-    <script src="main.js" type="text/javascript"></script>
     <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -24,14 +24,19 @@
                     <p>type + enter</p>
                 </div>
                 <div class="list">
-                    <input id="userInput" type="text" placeholder="What do you need?" />
+                    <input id="userInput" onkeydown="capture(event)" type="text" placeholder="What do you need?" maxlength="30" />
                     <br />
                     <button id="submit" style="display:none;"></button>
                     <hr />
-                    <table id="userList"></table>
+                    <table id="userList">
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
                 </div>
             </section>
             <div class="footer">
+                <hr />
                 <span id="footerText">Krishan Patel - kpatel91.github.io</span>
             </div>
         </div>
